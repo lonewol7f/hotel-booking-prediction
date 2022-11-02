@@ -51,7 +51,7 @@ const PredictPage = () => {
 
 
         setLoading(true);
-        await axios.post('http://54.167.35.225:8080/predict', {
+        await axios.post('http://3.95.170.78:8080/predict', {
             arrival_date: arrival_date.toISOString().split('T')[0],
             hotel_type,
             meal_type,
